@@ -51,7 +51,7 @@ class User extends Authenticatable
     {
         return self::where('role', self::ROLE_USER)->get();
     }
-
+    // Agora, vamos adicionar um método de relacionamento com o produto no arquivo app / User.php.
     public function products()
     {
         return $this->hasMany(Product::class);

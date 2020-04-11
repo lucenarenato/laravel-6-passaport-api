@@ -35,5 +35,10 @@ class AppServiceProvider extends ServiceProvider
             return FakerFactory::create('pt_BR');
         });
 
+        if ($this->app->isLocal()) {
+            //$this->app->register(\Laravel\Telescope\TelescopeServiceProvider::class);
+            $this->app->register(TelescopeServiceProvider::class);
+        }
+
     }
 }

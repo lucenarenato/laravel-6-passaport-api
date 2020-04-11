@@ -161,6 +161,7 @@ return [
         // FederalSt\Providers\BroadcastServiceProvider::class,
         FederalSt\Providers\EventServiceProvider::class,
         FederalSt\Providers\RouteServiceProvider::class,
+        FederalSt\Providers\TelescopeServiceProvider::class,
 
     ],
 
