@@ -1,0 +1,12 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/vendor/notyf.min.js": "/vendor/notyf.min.js",
+    "/vendor/notyf.min.css": "/vendor/notyf.min.css",
+    "/vendor/mustache.min.js": "/vendor/mustache.min.js",
+    "/vendor/jquery.mask.min.js": "/vendor/jquery.mask.min.js",
+    "/vendor/jquery.validate.min.js": "/vendor/jquery.validate.min.js",
+    "/vendor/messages_pt_BR.min.js": "/vendor/messages_pt_BR.min.js",
+    "/js/helpers.js": "/js/helpers.js",
+    "/js/customer.js": "/js/customer.js"
+}

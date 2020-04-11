@@ -1,0 +1,55 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+}
+*::-webkit-scrollbar-track {
+  background-color: rgba(0,0,0,0.1);
+}
+
+.scrollbar-small {
+  &::-webkit-scrollbar{
+    width: 4px;
+  }
+}
+.scrollbar-large {
+  &::-webkit-scrollbar {
+    width: 12px;
+  }
+}
+.scrollbar-dark {
+  &::-webkit-scrollbar-thumb{
+    background-color: rgba(#fff, 0.05);
+  }
+}
+.scrollbar-round {
+  &::-webkit-scrollbar-thumb {
+    border-radius: 12px;
+  }
+}
+
+.not-scrolling {
+  overflow: hidden !important;
+}
+
+div#customers-list {
+  max-height: calc(55px - 20px - 100%);
+  overflow-x: auto;
+}
