@@ -15,7 +15,7 @@
         "cross-env": "^7.0",
         "jquery": "^3.4.1",
         "jquery-mask-plugin": "^1.14.16",
-        "jquery-validation": "^1.19.1",
+        "jquery-validation": "^1.19.5",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.13",
         "mustache": "^3.0.3",
